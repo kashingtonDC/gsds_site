@@ -1,0 +1,32 @@
+
+.parallax-container .parallax img {
+	display: block;
+/*  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);*/
+}
+/*  .parallax-container .section {
+    width: 100%;
+  }
+  #earth_image {
+  	display: block;
+  }*/
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    vertical-align: center
+}
+
+.over{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
