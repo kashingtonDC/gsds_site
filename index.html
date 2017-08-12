@@ -12,22 +12,31 @@
 
 </head>
 <body>
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#process">Process</a></li>
+  <li class="divider"></li>
+  <li><a href="#applications">Applications</a></li>
+  <li class="divider"></li>
+  <li><a href="#our_team">Team</a></li>
+  <li class="divider"></li>
+  <li><a href="#contact">Contact</a></li>
+
+</ul>
   <nav class="black" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#contact">About</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="#process">Process</a></li>
         <li><a href="#applications">Applications</a></li>
         <li><a href="#our_team">Our Team</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="dropdown1" class="dropdown-button"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+
+
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -37,11 +46,7 @@
         <div class="row center">
           <h5 class="header col s12 light white-text"><!-- Insights from satellite, radar, and ground based sensors --></h5>
         </div>
-<!--         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div> -->
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img id="earth_image" src="/assets/earf.png"></div>
@@ -182,6 +187,7 @@
     </div>
   </div>
 </div>
+
   <div id = "contact" class = 'section scrollspy'> 
     <div class="container">
       <div class="section">
@@ -207,6 +213,8 @@
         </div>
     </div>
 </div>
+
+
 
   <footer class="page-footer teal">
     <div class="container">
